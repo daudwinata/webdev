@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--This is the Meta Schema title-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--This is the Head title-->
+    <title>Our site</title>
+
+    <!--This is the botui css library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" />
+
+    <!--This is the transition animation jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--This is the font css library-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--This is the Loading gif-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+    <!--This is the Loading gif-->
+    <div class="loader" id="loader" style="display: none; z-index: 100;"></div>
+
+    <!-- <div class="botui-app-container" id="div1" style="position: absolute;left: 40%;z-index: 1"> -->
+    <div class="botui-app-container" id="div1">
+        <div class="landing-question__welcome" id="div1-content">
+
+            <img src="images/lucy_once.gif" id="fade1" style="display: none" />
+            <p id="fade2" style="display: none">I'm Lucy, your personal AI tourist guide.</p>
+            <p id="fade3" style="display: none">I'd like to build for you a personal Montreal experience based on what you like.</p>
+            <br />
+            <div id="fade4" class="div4 col-md-12 newsletter-form__subscribe-button-wrapper" style="display: none">
+                <button type="submit" id="btn11" class="btn btn-default chatbot-button-primary" onclick="myClick11();">
+                    Start now
+                </button>
+                <button type="submit" id="btn12" class="btn btn-default chatbot-button-secondary" onclick="myClick12();">
+                    Not now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--This is the Second slider-->
+    <div class="botui-app-container" id="botui-app" style="display: none; z-index: 1">
+        <div class="div2-content">
+            <bot-ui></bot-ui>
+        </div>
+    </div>
+
+    <!--This is the Third slider-->
+    <!-- <div class="botui-app-container" style="position: absolute;left: 40%;display: none;z-index: 1" id="div3">
+        <div class="landing-question__welcome" id="div3-content">
+
+            <img src="images/messenger.png" />
+            <p>Third Page</p>
+            <p>Fourth Content</p>
+            <div class="div4 col-md-12 newsletter-form__subscribe-button-wrapper">
+                <button type="submit" id="btn3" class="btn btn-default newsletter-form__subscribe-button" onclick="myClick3();">
+                    Next
+                </button>
+            </div>
+
+        </div>
+
+    </div> -->
+
+    <div class="botui-app-container" id="div3" style="display: none; z-index: 1">
+        <div class="guestbook__header">
+            <span class="guestbook__header__host-img" style="background-image: url('images/daud.jpg');"></span>
+            <div class="guestbook__header__host-msg">
+                This service is provided by your host</br> <span>- Daud Winata</span>
+                <br />
+            </div>
+        </div>
+        <div class="guestbook__body">
+            <div class="guestbook__white-box">
+                <h1 class="guestbook__white-box__title">
+                    Events you must go
+                </h1>
+                <div class="guestbook__event-box">
+                    <span class="guestbook__event-box__img" style="background-image: url('https://s3.amazonaws.com/spotev-platform/production/api/images/events/2018-08-18/1530324131_5b36e4a3d0d3e.jpg');"></span>
+                    <span class="guestbook__event-box__date">
+                        Today - 8 pm
+                    </span>
+                    <h2 class="guestbook__event-box__title">
+                        Festival Perfecto - Saturday
+                    </h2>
+                    <span class="guestbook__event-box__venue">
+                        Katacombes Coop
+                    </span>
+                </div>
+                <div class="guestbook__event-box">
+                    <span class="guestbook__event-box__img" style="background-image: url('https://s3.amazonaws.com/spotev-platform/production/api/images/events/2018-08-18/1529729702_5b2dd2a64edfe.jpg');"></span>
+                    <span class="guestbook__event-box__date">
+                        Today - 10 pm
+                    </span>
+                    <h2 class="guestbook__event-box__title">
+                        Her presents: NINA SKY PRIDE
+                    </h2>
+                    <span class="guestbook__event-box__venue">
+                        Club Soda
+                    </span>
+                </div>
+                <div class="guestbook__event-box">
+                    <span class="guestbook__event-box__img" style="background-image: url('https://s3.amazonaws.com/spotev-platform/production/api/images/events/2018-08-18/1531544103_5b49822736bc1.jpg');"></span>
+                    <span class="guestbook__event-box__date">
+                        Tomorrow - 8 pm
+                    </span>
+                    <h2 class="guestbook__event-box__title">
+                        ABITABYSS a Montréal: Abitabyss, Torrent
+                    </h2>
+                    <span class="guestbook__event-box__venue">
+                        Le Pirahna Bar
+                    </span>
+                </div>
+                <div class="guestbook__event-box">
+                    <span class="guestbook__event-box__img" style="background-image: url('https://s3.amazonaws.com/spotev-platform/production/api/images/events/2018-07-03/1533348132_5b6509241cde2.jpg');"></span>
+                    <span class="guestbook__event-box__date">
+                        Today
+                    </span>
+                    <h2 class="guestbook__event-box__title">
+                        Frédéric Back, The celebration of life
+                    </h2>
+                    <span class="guestbook__event-box__venue">
+                        Cinémathèque québécoise
+                    </span>
+                </div>
+                <a class="guestbook__event-box__more-link">
+                    <i class="fas fa-search guestbook__event-box__more-icon"></i> See more events
+                </a>
+            </div>
+            <div class="guestbook__white-box">
+                <h1 class="guestbook__white-box__title">
+                    Restaurants nearby that fit your style
+                </h1>
+                <div class="guestbook__rest-wrapper">
+                    <div class="guestbook__rest__content-wrapper">
+                        <h2 class="guestbook__rest__title">
+                            Olive et Gourmand
+                        </h2>
+                        <div class="guestbook__rest_subtitle">
+                            <span class="guestbook__rest__ratings">
+                                4.6 <i class="fa fa-star"></i>
+                            </span>
+                            <span class="guestbook__rest__type">
+                                (260) . Canadian Cuisine
+                            </span>
+                            <span class="guestbook__rest__price">
+                                $$
+                            </span>
+                        </div>
+                        <div class="guestbook__rest_info">
+                            <span class="guestbook__rest__status">
+                                open now
+                            </span>
+                            <span class="guestbook__rest__distance">
+                                - 389 m
+                            </span>
+                        </div>
+                    </div>
+                    <div class="guestbook__rest__photo-wrapper">
+                        <span class="guestbook__rest__photo" style="background-image: url('http://oliveetgourmando.com/data/i/olive_gourmando___ambiance_55_1479493373.jpg');"></span>
+                        <span class="guestbook__rest__photo" style="background-image: url('http://www.montrealfooddivas.com/wp-content/uploads/2015/09/Olive-et-Gourmando-Old-Montreal-Restaurant-Bakery-Croissants-848x1024.jpg');"></span>
+                    </div>
+                </div>
+                <div class="guestbook__rest-wrapper">
+                    <div class="guestbook__rest__content-wrapper">
+                        <h2 class="guestbook__rest__title">
+                            Terrasse Nelligan
+                        </h2>
+                        <div class="guestbook__rest_subtitle">
+                            <span class="guestbook__rest__ratings">
+                                4.5 <i class="fa fa-star"></i>
+                            </span>
+                            <span class="guestbook__rest__type">
+                                (325) . French Cuisine
+                            </span>
+                            <span class="guestbook__rest__price">
+                                $
+                            </span>
+                        </div>
+                        <div class="guestbook__rest_info">
+                            <span class="guestbook__rest__status">
+                                open now
+                            </span>
+                            <span class="guestbook__rest__distance">
+                                - 240 m
+                            </span>
+                        </div>
+                    </div>
+                    <div class="guestbook__rest__photo-wrapper">
+                        <span class="guestbook__rest__photo" style="background-image: url('http://experienceoldmontreal.com/wp-content/uploads/2017/02/terrasse_nelligan2-e1492630842794.jpg');"></span>
+                        <span class="guestbook__rest__photo" style="background-image: url('http://experienceoldmontreal.com/wp-content/uploads/2017/04/photo_TN_2.jpg');"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="guestbook__rest-wrapper">
+                    <div class="guestbook__rest__content-wrapper">
+                        <h2 class="guestbook__rest__title">
+                            Terrasse Nelligan
+                        </h2>
+                        <div class="guestbook__rest_subtitle">
+                            <span class="guestbook__rest__ratings">
+                                4.7 <i class="fa fa-star"></i>
+                            </span>
+                            <span class="guestbook__rest__type">
+                                (325) . Indian Cuisine
+                            </span>
+                            <span class="guestbook__rest__price">
+                                $$$
+                            </span>
+                        </div>
+                        <div class="guestbook__rest_info">
+                            <span class="guestbook__rest__status">
+                                open now
+                            </span>
+                            <span class="guestbook__rest__distance">
+                                - 160 m
+                            </span>
+                        </div>
+                    </div>
+                    <div class="guestbook__rest__photo-wrapper">
+                        <span class="guestbook__rest__photo" style="background-image: url('http://www.montrealfooddivas.com/wp-content/uploads/2015/09/Olive-et-Gourmando-Old-Montreal-Restaurant-Bakery-Croissants-848x1024.jpg');"></span>
+                        <span class="guestbook__rest__photo" style="background-image: url('http://experienceoldmontreal.com/wp-content/uploads/2017/04/photo_TN_4.jpg');"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <a class="guestbook__event-box__more-link">
+                    <i class="fa fa-search-plus guestbook__event-box__more-icon"></i> See more restaurants
+                </a>
+            </div>
+
+            <!--This is the Fourth slider-->
+            <!-- <div class="botui-app-container" style="position: absolute;left: 40%;display: none;z-index: 1" id="div4">
+                <div class="landing-question__welcome" id="div4-content">
+
+                    <img src="images/messenger.png" />
+                    <p>Fourth Page</p>
+                    <p>Fourth Content</p>
+                    <div class="div4 col-md-12 newsletter-form__subscribe-button-wrapper">
+                        <button id="btn4" type="submit" class="btn btn-default newsletter-form__subscribe-button">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!--This is the Botui javascript library-->
+            <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
+
+            <!--This is the main javascript library-->
+            <script type="text/javascript" src="js/script.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	text-align: center;
+}
+
+.blue-color{
+	background-color: #4285F4;
+}
+
+.square{
+	width: 25px;
+	height: 25px;
+	margin: 10px auto;
+}
+
+.red{
+	background: red;
+}
+
+.green{
+	background: green;
+}
+
+.blue{
+	background: blue;
+}

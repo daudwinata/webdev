@@ -1,0 +1,379 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #414040;
+  font-weight: 600;
+}
+
+p {
+  line-height: 20px;
+}
+
+.botui-messages-container {
+  background: #f7f7f7;
+}
+
+.botui-actions-container {
+  background: #f7f7f7;
+}
+
+.botui-message-content.human {
+  color: #ffffff;
+  background-color: #434343;
+  font-weight: normal;
+}
+
+.botui-actions-buttons-button {
+  color: #ffffff;
+  background-color: #da1d5d;
+  border-radius: 15px;
+}
+
+.botui-actions-buttons-button:hover {
+  background-color: #801137;
+}
+
+.landing-question__welcome,
+.landing-question__test1,
+.landing-question__test2 {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 50px 25px;
+}
+
+.chatbot-button-primary {
+  background-color: #da1d5d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+}
+
+.chatbot-button-secondary {
+  background-color: #ffffff;
+  color: #da1d5d;
+  border: 2px solid #da1d5d;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*third slide*/
+
+.guestbook__header {
+  display: flex;
+  padding: 25px 15px 50px;
+  color: #ffffff;
+  background-color: #242223;
+}
+
+.guestbook__header__host-img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin-right: 10px;
+
+  border-radius: 90px;
+  background-size: cover;
+  background-color: #666666;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guestbook__header__host-msg {
+  padding: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.guestbook__header__host-msg span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.guestbook__body {
+  text-align: center;
+  background: #f7f7f7;
+  height: 830px;
+}
+
+.guestbook__white-box {
+  margin: 10px 15px;
+  padding: 1px 10px 10px 10px;
+  position: relative;
+  background: #ffffff;
+  position: relative;
+  bottom: 45px;
+}
+
+.guestbook__white-box__title {
+  margin: 20px 0;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+}
+
+.guestbook__event-box {
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+}
+
+.guestbook__event-box__img {
+  width: 100%;
+  height: 100px;
+  display: block;
+
+  background-size: cover;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guestbook__event-box__title {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 14px;
+}
+
+.guestbook__event-box__date {
+  margin: 0;
+  padding: 5px 0;
+  display: block;
+  color: #d41c5b;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.guestbook__event-box__venue {
+  margin: 0;
+  padding: 5px 0 15px 0;
+  display: block;
+
+  font-size: 12px;
+}
+
+.guestbook__event-box__more-icon {
+  padding: 8px 9px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 90px;
+  background: #d41c5b;
+  color: #ffffff;
+}
+
+.guestbook__event-box__more-link {
+  padding: 10px 5px 0;
+  display: block;
+  text-align: Left;
+  font-size: 14px;
+}
+
+.guestbook__actions-wrapper {
+  height: 135px;
+}
+
+.guestbook__action__wrapper {
+  overflow: hidden;
+  margin: 10px 5px;
+
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.guestbook__action__img {
+  width: 100%;
+  height: 80px;
+  display: block;
+
+  background-size: cover;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guestbook__action__title {
+  display: block;
+  margin: 0;
+  padding: 10px 5px;
+
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.guestbook__rest-wrapper {
+  display: flex;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.guestbook__rest__content-wrapper {
+  flex: 1;
+}
+
+.guestbook__rest__title {
+  margin: 0;
+  padding: 5px 0;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.guestbook__rest__ratings {
+  display: inline-block;
+  color: #d41c5b;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.guestbook__rest_info {
+  color: #9f9f9f;
+}
+
+.guestbook__rest__type {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.guestbook__rest__price {
+  display: inline-block;
+
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.guestbook__rest__status {
+  display: inline-block;
+
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.guestbook__rest__distance {
+  display: inline-block;
+
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.guestbook__rest__photo {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+
+  border-radius: 5px;
+  background-size: cover;
+  background-color: #777777;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guestbook__recommendation__photo {
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+
+  border-radius: 20px;
+  background-size: cover;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.guestbook__recommendation__title {
+  margin: 0;
+  padding: 10px 0;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.guestbook__recommendation__desc {
+  display: block;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.guestbook__recommendation__read-more {
+  margin: 0;
+  padding: 5px 0 10px;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.guestbook__create-recommendation {
+  display: block;
+  padding: 18px 20px;
+
+  text-align: center;
+}
+
+.guestbook__create-recommendation__icon {
+  display: inline-block;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+
+  border-radius: 90px;
+  background: pink;
+
+  font-size: 16px;
+}
+
+.guestbook__create-recommendation__text {
+  display: block;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.guestbook__weather__title {
+  display: block;
+
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.guestbook__weather__subtitle {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.guestbook__weather__temperature {
+  display: block;
+  margin-top: -45px;
+
+  font-size: 60px;
+  text-align: left;
+  font-weight: 200;
+}
+
+.guestbook__weather__max-min {
+  display: block;
+  margin-top: -8px;
+
+  font-size: 10px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+}

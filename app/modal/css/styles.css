@@ -1,0 +1,1038 @@
+body {
+  background-color: #cccccc;
+  background-size: cover;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  cursor: pointer;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+/*-------------------------------------------------Banner-1--------------------------------------------------*/
+
+.watch-dog__banner {
+  background: url(../images/background-banner.png) no-repeat center top #000;
+  color: #ffffff;
+  width: 330px;
+  height: 250px;
+  margin: 0px 0px 0px auto;
+}
+
+.watch-dog__banner-top {
+  display: block;
+}
+
+.watch-dog__opacity-banner-1 {
+  width: 330px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  top: 86px;
+  display: inline-block;
+  text-align: center;
+}
+
+.watch-dog__text-wrapper-banner-1 {
+  display: inline-block;
+  text-align: left;
+  padding: 8px 0;
+}
+
+.watch-dog__bar-image-wrapper-banner-1 {
+  font-size: 0;
+}
+
+.watch-dog__first-row-banner-1 {
+  padding-bottom: 5px;
+}
+
+.watch-dog__second-row-banner-1 {
+  padding-bottom: 5px;
+}
+.watch-dog__third-row-banner-1 {
+  padding-bottom: 5px;
+}
+
+.watch-dog__text-blue-banner-1 {
+  color: #126879;
+  margin: 0;
+  text-shadow: none;
+  font-size: 10px;
+}
+
+.watch-dog__text-blue-glowing-banner-1 {
+  color: #36ffed;
+  text-shadow: 0 0 5px #36ffed;
+  margin: 0;
+  font-size: 10px;
+}
+
+.watch-dog__text-blue-glowing-large-banner-1 {
+  color: #36ffed;
+  text-shadow: 0 0 5px #36ffed;
+  margin: 0;
+  font-size: 12px;
+}
+
+.watch-dog__text-blue-no-glowing-banner-1 {
+  color: #36ffed;
+  margin: 0;
+  font-size: 10px;
+}
+
+/*-------------------------------------------------banner-2---------------------------------------------------*/
+
+.watch-dog__video-wrapper-banner-2 {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.watch-dog__video-banner-2 {
+  border: 1px solid #00bbe5;
+  position: relative;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+}
+
+.watch-dog__video-guy-banner-2 {
+  padding: 5px;
+  display: block;
+}
+
+.watch-dog__video-button-banner-2 {
+  width: 50px;
+  position: absolute;
+  left: 85px;
+  top: 40px;
+}
+
+.watch-dog__text-message-banner-2 {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  padding: 0;
+  font-size: 9px;
+  font-weight: bold;
+  color: #00bbe5;
+}
+
+/*-------------------------------------------------banner-3---------------------------------------------------*/
+
+.watch-dog__main-video-wrapper-banner-3 {
+  text-align: center;
+}
+
+.watch-dog__logo-banner-3 {
+  width: 110px;
+  position: relative;
+  bottom: 70px;
+  left: 50px;
+}
+
+.watch-dog__video-wrapper-banner-3 {
+  position: relative;
+  bottom: 65px;
+  display: inline-block;
+}
+
+.watch-dog__video-banner-3 {
+  border: 1px solid #00bbe5;
+  width: 160px;
+}
+
+.watch-dog__video-guy-banner-3 {
+  padding: 5px;
+  display: block;
+}
+
+.watch-dog__video-button-banner-3 {
+  width: 30px;
+  position: absolute;
+  left: 65px;
+  top: 33px;
+}
+
+.watch-dog__text-message-banner-3 {
+  position: absolute;
+  left: 22px;
+  top: 68px;
+  padding: 0;
+  font-size: 8px;
+  color: #00bbe5;
+}
+
+.watch-dog__paragraph-banner-3 {
+  display: inline-block;
+  line-height: 22px;
+  width: 120px;
+  font-size: 22px;
+  position: relative;
+  bottom: 95px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.watch-dog__paragraph-blue-banner-3 {
+  color: #01bce7;
+  font-size: 25px;
+}
+
+.watch-dog__roll-over {
+  background-color: #fe0000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 60px;
+  display: block;
+  margin: auto;
+}
+
+.watch-dog__roll-over:hover {
+  background-color: #960101;
+}
+
+.watch-dog__logo-brand-banner-3 {
+  position: relative;
+  bottom: 52px;
+}
+
+.watch-dog__logo-ps3-sm {
+  vertical-align: text-top;
+}
+
+.watch-dog__logo-ps4-sm {
+  vertical-align: text-top;
+}
+
+.watch-dog__logo-ubisoft-sm {
+  vertical-align: text-bottom;
+}
+
+/*-------------------------------------------------Banner-4---------------------------------------------------*/
+
+.watch-dog__wrapper-banner-4 {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  right: 70px;
+}
+
+.watch-dog__wrapper-paragraph-banner-4 {
+  bottom: 40px;
+  right: -50px;
+  position: absolute;
+}
+
+.watch-dog__paragraph-banner-4 {
+  line-height: 35px;
+  width: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.watch-dog__banner-4-span {
+  font-size: 53px;
+  left: 4px;
+  position: relative;
+}
+
+.watch-dog__date-banner-4 {
+  font-size: 12px;
+  position: relative;
+  bottom: 10px;
+  font-size: 59%;
+  left: 5px;
+  font-weight: 600;
+}
+
+.watch-dog__roll-over-banner-4 {
+  background-color: #fe0000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 7px 10px;
+  margin: auto;
+  position: relative;
+  top: 0px;
+  left: 5px;
+}
+
+.watch-dog__roll-over-banner-4:hover {
+  background-color: #960101;
+}
+
+.watch-dog__logo-brand-banner-4 {
+  position: relative;
+  bottom: 62px;
+  text-align: center;
+}
+
+/*-------------------------------------------------Fading animation---------------------------------------------------*/
+.watch-dog__fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*-------------------------------------------------Test---------------------------------------------------*/
+
+.modal__background-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal__background-wrapper .modal-show {
+  opacity: 1 !important;
+}
+
+.modal-show {
+  background: url(../images/background.png) no-repeat center top #000;
+  width: 950px;
+  height: 680px;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.modal__black {
+  background-color: #000;
+}
+
+.modal-main-wrapper {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.button-click {
+  background-color: #7b8ef9;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.modal-wrapper {
+  display: none;
+  margin: auto;
+  position: relative;
+}
+
+.modal-wrapper.modal-show {
+  display: block;
+  position: relative;
+  bottom: 150px;
+  overflow: hidden;
+  height: 700px;
+}
+
+.modal-button-close {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  z-index: 1;
+  font-size: 20px;
+  background: none;
+}
+
+/*-------------------------------------------------Modal---------------------------------------------------*/
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  cursor: pointer;
+}
+
+.test {
+  visibility: hidden !important;
+}
+
+.test2 {
+  visibility: visible !important;
+}
+
+.watch-dog__header {
+  position: relative;
+}
+
+.watch-dog__header-image {
+  width: 100%;
+}
+
+.watch-dog__header-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.watch-dog__header-logo {
+  width: 23%;
+  display: inline-block;
+  top: -35px;
+  left: 0;
+  position: absolute;
+}
+
+.watch-dog__header-nav {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.watch-dog__nav {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.watch-dog__header-nav ul li {
+  float: left;
+}
+
+.watch-dog__header-nav a {
+  padding: 45px 80px 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.watch-dog__nav li:hover a {
+  background: #31c8f3;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.watch-dog__content {
+  padding: 0 20px;
+  text-align: left;
+  top: -100px;
+  position: relative;
+}
+
+.watch-dog__content-h1 {
+  font-size: 50px;
+  margin: 0;
+  display: inline-block;
+}
+
+.watch-dog__content-h1-span {
+  font-size: 110px;
+  line-height: 90px;
+  position: relative;
+  left: 15px;
+}
+
+.watch-dog__content-span {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: 4px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+.watch-dog__content-dvd {
+  text-align: center;
+}
+
+.watch-dog__footer {
+  margin: 0 50px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 130px;
+}
+
+.watch-dog__social-media-ubisoft {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  padding-top: 35px;
+}
+
+.watch-dog__social-media {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.watch-dog__social-media-paragraph {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.watch-dog__facebook {
+  background-color: #22478d;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size: 12px;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+
+.watch-dog__facebook:hover {
+  background-color: #0b2a63;
+}
+
+.watch-dog__twitter {
+  background-color: #00bbe4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size: 12px;
+  vertical-align: text-top;
+}
+
+.watch-dog__twitter:hover {
+  background-color: #03829b;
+}
+
+.watch-dog__facebook-logo {
+  padding-right: 10px;
+  vertical-align: bottom;
+  vertical-align: inherit;
+}
+
+.watch-dog__twitter-logo {
+  padding-right: 10px;
+  vertical-align: bottom;
+  vertical-align: inherit;
+}
+
+.watch-dog__order-wrapper {
+  display: inline-block;
+  position: absolute;
+  right: -50px;
+  padding: 10px 0;
+}
+
+.watch-dog__order {
+  background-color: #fe0000;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.watch-dog__order:hover {
+  background-color: #960101;
+}
+
+.watch-dog__order-target {
+  padding-right: 10px;
+  vertical-align: bottom;
+  position: relative;
+  right: 25px;
+  bottom: 25px;
+}
+
+/*-------------------------------------------------Animate---------------------------------------------------*/
+
+/*Close-button*/
+
+.watch-dog__header-logo-animate-js {
+  animation: close-button 2s;
+}
+
+@keyframes close-button {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Menu*/
+.watch-dog__nav-animate-js {
+  animation: menu 2s;
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Footer*/
+
+.watch-dog__footer-animate-js {
+  animation: footer 3s;
+}
+
+@keyframes footer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Logo*/
+
+.watch-dog__header-logo-animate-js {
+  animation: logo 2s;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Pre-order*/
+.watch-dog__animate-text-order-js {
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 400px;
+  animation: type 1s steps(60, end);
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+/*DVD*/
+.watch-dog__animate-dvd-js {
+  animation: dvd 1s;
+}
+
+@keyframes dvd {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*-------------------------------------------------Responsive---------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .modal-wrapper.modal-show {
+    bottom: 200px;
+  }
+
+  .modal-show {
+    width: 650px;
+  }
+
+  .watch-dog__order-wrapper {
+    right: -70px;
+    top: -5px;
+  }
+
+  .watch-dog__content-dvd-image {
+    width: 100%;
+  }
+
+  .watch-dog__content {
+    top: -40px;
+  }
+
+  .watch-dog__content-h1 {
+    font-size: 30px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .watch-dog__content-h1-span {
+    font-size: 66px;
+    line-height: 40px;
+    position: relative;
+    left: 10px;
+  }
+
+  .watch-dog__content-span {
+    font-size: 10px;
+    top: -5px;
+  }
+
+  .watch-dog__footer {
+    bottom: 50px;
+  }
+
+  .watch-dog__social-media-ubisoft {
+    width: 20%;
+  }
+
+  .watch-dog__social-media-paragraph {
+    font-size: 10px;
+  }
+
+  .watch-dog__order {
+    font-size: 12px;
+  }
+
+  .watch-dog__facebook {
+    font-size: 10px;
+  }
+
+  .watch-dog__twitter {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-show {
+    width: 350px;
+  }
+
+  .watch-dog__header-menu {
+    top: 20px;
+  }
+
+  .watch-dog__content-h1 {
+    font-size: 25px;
+  }
+
+  .watch-dog__content-h1-span {
+    font-size: 54px;
+  }
+
+  .watch-dog__header-logo {
+    top: -25px;
+  }
+
+  .watch-dog__header-nav {
+    top: -40px;
+  }
+
+  .watch-dog__header-nav a {
+    padding: 5px 0px 10px 20px;
+  }
+
+  .watch-dog__content {
+    padding: 0 10px;
+    top: -20px;
+  }
+
+  .watch-dog__content-span {
+    top: 0px;
+  }
+
+  .watch-dog__footer {
+    bottom: 30px;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .watch-dog__social-media {
+    display: block;
+  }
+
+  .watch-dog__social-media-ubisoft {
+    width: 40%;
+    position: relative;
+    padding: 0;
+    display: block;
+    margin: auto;
+  }
+
+  .watch-dog__facebook {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0px;
+  }
+
+  .watch-dog__social-media-paragraph {
+    font-size: 14px;
+  }
+
+  .watch-dog__twitter {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .watch-dog__order-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    right: 0;
+    font-size: 0;
+  }
+
+  .watch-dog__order {
+    width: 100%;
+  }
+
+  .watch-dog__order-target {
+    display: none;
+  }
+
+  .watch-dog__banner {
+    background: url(../images/background-mobile.jpg) no-repeat center top #000;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+  }
+
+  .watch-dog__opacity-banner-1 {
+    width: 100%;
+    height: 500px;
+    top: 500px;
+  }
+
+  .watch-dog__text-wrapper-banner-1 {
+    padding-top: 70px;
+  }
+
+  .watch-dog__text-blue-banner-1 {
+    font-size: 24px;
+  }
+
+  .watch-dog__text-blue-glowing-banner-1 {
+    font-size: 24px;
+  }
+
+  .watch-dog__text-blue-no-glowing-banner-1 {
+    font-size: 24px;
+  }
+
+  .watch-dog__text-blue-glowing-large-banner-1 {
+    font-size: 30px;
+  }
+
+  .watch-dog__video-guy-banner-2 {
+    margin: auto;
+    width: 95%;
+  }
+
+  .watch-dog__video-banner-2 {
+    width: 90%;
+  }
+
+  .watch-dog__video-button-banner-2 {
+    width: auto;
+    left: 150px;
+  }
+
+  .watch-dog__text-message-banner-2 {
+    left: 30px;
+    top: 160px;
+    font-size: 22px;
+  }
+
+  .watch-dog__video-wrapper-banner-2 {
+    bottom: -120px;
+  }
+
+  .watch-dog__video-wrapper-banner-3 {
+    width: 90%;
+    bottom: 0;
+  }
+
+  .watch-dog__video-banner-3 {
+    width: 100%;
+  }
+
+  .watch-dog__video-guy-banner-3 {
+    width: 97%;
+  }
+
+  .watch-dog__video-button-banner-3 {
+    width: 20%;
+    left: 155px;
+    top: 75px;
+  }
+
+  .watch-dog__text-message-banner-3 {
+    left: 60px;
+    top: 155px;
+    font-size: 18px;
+  }
+
+  .watch-dog__logo-banner-3 {
+    width: 75%;
+    top: -50px;
+  }
+
+  .watch-dog__banner-top {
+    width: 100%;
+  }
+
+  .watch-dog__paragraph-banner-3 {
+    bottom: 0;
+  }
+
+  .watch-dog__roll-over {
+    bottom: 0;
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .watch-dog__logo-brand-banner-3 {
+    bottom: 0;
+    padding-top: 20px;
+  }
+
+  .watch-dog__paragraph-banner-3 {
+    width: 350px;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 30px 0;
+  }
+
+  .watch-dog__paragraph-blue-banner-3 {
+    font-size: 65px;
+    padding-top: 20px;
+  }
+
+  .watch-dog__logo-ps3-sm {
+    vertical-align: text-top;
+    width: 25%;
+  }
+
+  .watch-dog__logo-ps4-sm {
+    width: 25%;
+  }
+
+  .watch-dog__logo-ubisoft-sm {
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  .watch-dog__wrapper-banner-4 {
+    right: 0;
+    top: 0;
+  }
+
+  .watch-dog__dvd-sm {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .watch-dog__wrapper-paragraph-banner-4 {
+    position: relative;
+    right: 0;
+  }
+
+  .watch-dog__paragraph-banner-4 {
+    width: 100%;
+    padding: 60px 0 20px 0;
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  .watch-dog__roll-over-banner-4 {
+    bottom: 0;
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .watch-dog__logo-brand-banner-4 {
+    bottom: 20px;
+  }
+
+  .watch-dog__banner-4-span {
+    font-size: 100px;
+    left: 2px;
+  }
+
+  .watch-dog__date-banner-4 {
+    left: 2px;
+    display: block;
+  }
+}
+
+@media (max-width: 360px) {
+  .modal-show {
+    width: 300px;
+  }
+
+  .watch-dog__header-nav a {
+    font-size: 12px;
+  }
+
+  .watch-dog__header-nav {
+    top: -45px;
+  }
+
+  .modal-button-close {
+    right: 5px;
+    top: 10px;
+  }
+}
