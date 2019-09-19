@@ -44,6 +44,7 @@ body {
 }
 
 .container {
+  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
@@ -97,11 +98,6 @@ ul.nav {
   padding-top: 20px;
 }
 
-.logo span {
-  position: relative;
-  right: 25px;
-}
-
 #logo_image {
   vertical-align: middle;
   width: 22%;
@@ -112,11 +108,13 @@ ul.nav {
 
 .banner_image {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
 }
 
 .banner_image-web {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
   overflow: hidden;
   height: 350px;
@@ -135,6 +133,7 @@ ul.nav {
 .test {
   margin: auto;
   width: 1000px;
+  max-width: 1200px;
 }
 
 .test img {
@@ -164,6 +163,7 @@ ul.nav {
 
 .middle {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
   background-color: #161616;
   font-size: 14px;
@@ -267,7 +267,7 @@ ul.nav {
 }
 
 .kotak a {
-  width: 80%;
+  width: 90%;
   margin: auto;
   border: solid 2px #ffffff;
   display: block;
@@ -299,6 +299,7 @@ ul.nav {
 
 .middle_contact {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
   background-color: #161616;
   font-size: 16px;
@@ -411,6 +412,7 @@ textarea {
 
 .bottom {
   width: 100%;
+  max-width: 1200px;
   margin: auto;
 }
 
