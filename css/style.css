@@ -44,7 +44,6 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
@@ -98,6 +97,11 @@ ul.nav {
   padding-top: 20px;
 }
 
+.logo span {
+  position: relative;
+  right: 25px;
+}
+
 #logo_image {
   vertical-align: middle;
   width: 22%;
@@ -108,13 +112,11 @@ ul.nav {
 
 .banner_image {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
 }
 
 .banner_image-web {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   overflow: hidden;
   height: 350px;
@@ -133,7 +135,6 @@ ul.nav {
 .test {
   margin: auto;
   width: 1000px;
-  max-width: 1200px;
 }
 
 .test img {
@@ -163,7 +164,6 @@ ul.nav {
 
 .middle {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   background-color: #161616;
   font-size: 14px;
@@ -267,7 +267,7 @@ ul.nav {
 }
 
 .kotak a {
-  width: 90%;
+  width: 80%;
   margin: auto;
   border: solid 2px #ffffff;
   display: block;
@@ -299,7 +299,6 @@ ul.nav {
 
 .middle_contact {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   background-color: #161616;
   font-size: 16px;
@@ -412,7 +411,6 @@ textarea {
 
 .bottom {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -487,6 +485,11 @@ ul.nav2 {
 }
 
 @media (max-width: 1050px) {
+  .left-border,
+  .right-border {
+    display: none;
+  }
+
   .logo {
     font-size: 12px;
   }
@@ -504,7 +507,8 @@ ul.nav2 {
   }
 
   .logo span {
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
@@ -560,10 +564,6 @@ ul.nav2 {
     display: none !important;
   }
 
-  .show {
-    display: block !important;
-  }
-
   .logo {
     text-align: left;
     float: none;
@@ -581,7 +581,7 @@ ul.nav2 {
   }
 
   .top2 a {
-    padding: 7px 15px;
+    padding: 10px 15px;
     border-right: none;
     width: 100%;
   }
@@ -592,10 +592,6 @@ ul.nav2 {
 
   .middle {
     font-size: 15px;
-  }
-
-  .title1 p {
-    border-bottom: 1px solid #333333;
   }
 
   .graphic_title {
