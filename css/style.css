@@ -148,7 +148,7 @@ ul.nav {
   width: 130px;
   height: 2px;
   position: absolute;
-  top: 70px;
+  top: 120px;
   left: 50px;
 }
 
@@ -156,7 +156,7 @@ ul.nav {
   background-color: #999;
   width: 130px;
   height: 2px;
-  top: 70px;
+  top: 120px;
   right: 50px;
   position: absolute;
 }
@@ -204,7 +204,7 @@ ul.nav {
 }
 
 .title1 p {
-  padding: 0 20px 50px 20px;
+  padding: 0 30px 50px 30px;
   line-height: 25px;
 }
 
