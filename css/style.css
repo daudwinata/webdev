@@ -272,6 +272,18 @@ ul.nav {
   border: solid 2px #ffffff;
   display: block;
 }
+/* 
+.overlay {
+  opacity: 1;
+
+  background-color: #008cba;
+} */
+
+.kotak a:hover .overlay {
+  opacity: 0.5;
+  background-color: #008cba;
+  transition: 0.5s ease;
+}
 
 .kotak a img {
   width: 100%;

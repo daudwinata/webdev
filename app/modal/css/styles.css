@@ -1,5 +1,5 @@
 body {
-  background-color: #cccccc;
+  background-image: url("../images/mockup-ads.jpg");
   background-size: cover;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
@@ -27,8 +27,11 @@ input {
   background: url(../images/background-banner.png) no-repeat center top #000;
   color: #ffffff;
   width: 330px;
-  height: 250px;
+  height: 260px;
   margin: 0px 0px 0px auto;
+  position: relative;
+  top: 209px;
+  right: 72px;
 }
 
 .watch-dog__banner-top {
@@ -316,6 +319,7 @@ input {
 
 .modal__background-wrapper {
   background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
 }
 
 .modal__background-wrapper .modal-show {

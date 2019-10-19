@@ -54,7 +54,6 @@ buttonClick.forEach(e => {
         } else {
             bodyBackgroundColor.classList.add("modal__background-wrapper");
         }
-
     })
 })
 
