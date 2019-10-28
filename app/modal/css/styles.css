@@ -4,6 +4,7 @@ body {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   padding: 0;
+  margin: 0;
 }
 
 ol,
@@ -21,6 +22,10 @@ input {
   clear: both;
 }
 
+.top {
+  height: 305px;
+}
+
 /*-------------------------------------------------Banner-1--------------------------------------------------*/
 
 .watch-dog__banner {
@@ -30,8 +35,7 @@ input {
   height: 260px;
   margin: 0px 0px 0px auto;
   position: relative;
-  top: 209px;
-  right: 72px;
+  right: 90px;
 }
 
 .watch-dog__banner-top {
@@ -386,6 +390,10 @@ button,
 input {
   border: none;
   cursor: pointer;
+}
+
+.top.hide {
+  display: none;
 }
 
 .test {

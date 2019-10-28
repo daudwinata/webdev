@@ -31,6 +31,8 @@ const animateLogo = document.querySelector(".watch-dog__header-logo");
 const animateFooter = document.querySelector(".watch-dog__footer");
 const animateMenu = document.querySelector(".watch-dog__nav");
 const animateCloseButton = document.querySelector(".modal-button-close");
+const topRemove = document.querySelector(".top");
+
 
 let slides = document.querySelectorAll(".watch-dog__slides");
 
@@ -49,6 +51,8 @@ buttonClick.forEach(e => {
         animateMenu.classList.add("watch-dog__nav-animate-js");
         animateCloseButton.classList.add("watch-dog__header-logo-animate-js");
 
+        topRemove.classList.add("hide");
+
         if (bodyBackgroundColor.classList.contains("modal__background-wrapper")) {
             bodyBackgroundColor.classList.remove("modal__background-wrapper");
         } else {
@@ -63,6 +67,7 @@ const buttonClose = document.querySelector(".modal-button-close");
 buttonClose.addEventListener("click", _ => {
     modalWrapper.classList.remove("modal-show");
     bodyBackgroundColor.classList.remove("modal__background-wrapper");
+    topRemove.classList.remove("hide");
 
     slides.forEach(event => {
         event.classList.remove("test"); //visible
