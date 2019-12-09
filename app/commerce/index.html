@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commerce</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <script src="vue.js"></script> -->
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="container__top">
+                <a href="#" v-on:click.prevent="isShowingCart = false" class="container__top-text">{{title}}</a>
+                <div class="container__cart-wrapper">
+                    <p>{{cart.items.length}}
+                        <template v-if="cart.items.length == 1">item</template>
+                        <template v-else>items</template>
+                        in cart, totalling {{cartTotal | currency}}</p>
+                    <button v-on:click="isShowingCart = true">{{view_cart}}</button>
+                </div>
+            </div>
+
+            <div v-if="!isShowingCart" class="container__products">
+                <div class="products" v-for="product in products">
+                    <div class="products-images">
+                        <img v-bind:src="product.images">
+                    </div>
+                    <div class="products__caption-wrapper">
+                        <div class="caption">
+                            <p class="caption__title">{{product.name}}</p>
+                            <p class="caption__description">{{product.description}}</p>
+                        </div>
+                        <div class="caption-text-wrapper">
+                            <p>{{product.price | currency}}</p>
+                            <span class="caption-border">
+                                <template v-if="product.inStock > 0">
+                                    <p>{{product.inStock}} in stock</p>
+                                </template>
+
+                                <template v-else>
+                                    <p v-bind:class="{red: product.inStock == 0}">{{product.inStock}} in stock</p>
+                                </template>
+
+                                <button v-on:click="add_to_cart(product)" v-bind:disabled="!product.inStock" class="caption__button" v-bind:class="{disabledButton: !product.inStock}">{{add_to_cart_text}}</button>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-else>
+                <h1>Cart</h1>
+
+                <table v-if="cart.items.length > 0" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in cart.items">
+                            <td>{{item.productName.name}}</td>
+                            <td>
+                                {{item.quantity}}
+                                &nbsp;
+                                <button class="btn btn-success" v-on:click="increaseQuantity(item)" v-bind:disabled="item.productName.inStock == 0">+</button>
+
+                                <button class="btn btn-danger" v-on:click="decreaseQuantity(item)">-</button>
+                            </td>
+                            <td>{{item.quantity * item.productName.price | currency}}</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-right" colspan="2">
+                                <strong>Subtotal</strong>
+                            </td>
+                            <td>{{cartTotal | currency}}</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-right" colspan="2">
+                                <strong>Taxes</strong>
+                            </td>
+                            <td>{{taxAmount | currency}}</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-right" colspan="2">
+                                <strong>Grand total</strong>
+                            </td>
+                            <td>{{cartTotal + taxAmount | currency}}</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>
+                                <button class="btn btn-success" v-on:click="checkout">Checkout</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p v-else>Your cart is currently empty.</p>
+
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+<!--
+
+v-on:click or @click
+v-on:mouseover or @mouseover
+v-on:submit or @submit
+v-on:keyup.enter or @keyup.enter
+
+v-bind:href or :href
+v-bind:href or :alt="description"
+v-bind:href or :href="url"
+v-bind:href or :title="toolTip"
+v-bind:href or :class="isActive"
+v-bind:href or :style="isStyled"
+v-bind:href or :disabled="isDisabled"
+
+attribute binding to add the disabled attribute whenever inStock is false, or rather not true: !inStock
+-->
