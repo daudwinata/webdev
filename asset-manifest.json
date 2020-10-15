@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/demo/static/css/main.6b7f6a60.chunk.css",
+    "main.js": "/demo/static/js/main.eb9413b5.chunk.js",
+    "main.js.map": "/demo/static/js/main.eb9413b5.chunk.js.map",
+    "runtime-main.js": "/demo/static/js/runtime-main.a819b733.js",
+    "runtime-main.js.map": "/demo/static/js/runtime-main.a819b733.js.map",
+    "static/css/2.ddd0df21.chunk.css": "/demo/static/css/2.ddd0df21.chunk.css",
+    "static/js/2.ff26fa65.chunk.js": "/demo/static/js/2.ff26fa65.chunk.js",
+    "static/js/2.ff26fa65.chunk.js.map": "/demo/static/js/2.ff26fa65.chunk.js.map",
+    "index.html": "/demo/index.html",
+    "precache-manifest.96879803d5919fc2c28f14164306a531.js": "/demo/precache-manifest.96879803d5919fc2c28f14164306a531.js",
+    "service-worker.js": "/demo/service-worker.js",
+    "static/css/2.ddd0df21.chunk.css.map": "/demo/static/css/2.ddd0df21.chunk.css.map",
+    "static/css/main.6b7f6a60.chunk.css.map": "/demo/static/css/main.6b7f6a60.chunk.css.map",
+    "static/js/2.ff26fa65.chunk.js.LICENSE.txt": "/demo/static/js/2.ff26fa65.chunk.js.LICENSE.txt",
+    "static/media/ADT_website_Business_Video-surveillance.jpg": "/demo/static/media/ADT_website_Business_Video-surveillance.bd526d03.jpg",
+    "static/media/App.css": "/demo/static/media/the_best_of_both_worlds.eb7c30d2.png",
+    "static/media/logo.svg": "/demo/static/media/logo.d7479e90.svg",
+    "static/media/slick-theme.css": "/demo/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a819b733.js",
+    "static/css/2.ddd0df21.chunk.css",
+    "static/js/2.ff26fa65.chunk.js",
+    "static/css/main.6b7f6a60.chunk.css",
+    "static/js/main.eb9413b5.chunk.js"
+  ]
+}
