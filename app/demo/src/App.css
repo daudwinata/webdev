@@ -1,0 +1,276 @@
+body {
+  background-size: cover;
+  font-weight: 600 !important;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-wrapper{
+  position: relative;
+  top: -25px;
+}
+
+.navbar{
+  background: #FFFFFF;
+  padding: 0 20px;
+  position: relative;
+  top: 5px;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.navbar ul li a{
+  color: #000000;
+}
+
+/*home-security-wrapper*/
+/***********************/
+
+.home-security{
+  background: url(./images/generation-panel.png) no-repeat center top #000;
+  background-size: cover;
+  height: 540px;
+}
+
+.home-security_h1-container {
+    margin: 0;
+    position: relative;
+    top: 120px;
+    left: 150px;
+    width: 450px;
+}
+
+.home-security h1 {
+    color: #005ea3;
+    font-size: 55px;
+}
+
+/*home-banner-icons-wrapper*/
+/***************************/
+
+.home-banner-icons-wrapper {
+    background: url(./images/the_best_of_both_worlds.png) no-repeat center top #000;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+    margin: 12px 0;
+}
+
+.home-banner-icons-wrapper h2 {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.home-banner-banner-icons {
+    padding: 100px;
+}
+
+.home-banner-icons-block {
+    display: inline-block;
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+/*slides carousel*/
+/***********************/
+
+.home-security_slider{
+  display: flex !important;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.slides {
+    width: 80%;
+    margin: auto;
+}
+
+.home-carousel h2 {
+    font-size: 40px;
+}
+
+.home-carousel {
+    color: #005ea3;
+    text-align: center;
+}
+
+.home-security_slider-icon{
+  background: url(./images/smart-smoke-detector.png) no-repeat center top;
+  background-color: #005ea3;
+  background-blend-mode: multiply;
+  width: 250px;
+  height: 350px;
+  margin: 30px;
+  text-align: center;
+}
+
+.home-security_slider-icon img {
+  width: 70px;
+  padding: 30px 0 0 0;
+  margin: auto;
+}
+
+.home-security_slider-icon p {
+  font-size: 12px;
+  padding: 0 50px;
+  height: 140px;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev:before,
+.slides .slick-next:before {
+    font-size: 50px;
+}
+
+.slides .slick-prev:before,
+.slides .slick-next:before {
+  color: #005ea3;
+}
+
+/*business carousel*/
+/***********************/
+
+.business-security{
+  background: url(./images/business.jpg) no-repeat center top #000;
+  background-size: cover;
+  height: 540px;
+}
+
+.business-security_h1-container {
+    margin: 0;
+    position: relative;
+    top: 120px;
+    left: 150px;
+    width: 450px;
+}
+
+.business-security h1 {
+    color: #FFFFFF;
+    font-size: 55px;
+}
+
+.business-security p {
+    color: #FFFFFF;
+}
+
+
+
+.tour{
+    margin: 2rem 0;
+}
+
+.tour-info img{
+    width: 100%;
+    display: block;
+    min-height: 13rem;
+}
+
+
+@media screen and (min-width: 768px){
+    .tour{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-column-gap: 1rem;
+    }
+}
+
+.img-container{
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: 10%;
+    color: #FFFFFF;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s linear;;
+    opacity: 0;
+}
+
+.img-container:hover .close-btn{
+    opacity: 1;
+}
+
+.tour-info{
+    padding: 1rem 0.5rem;
+}
+
+.tour-info h3{
+    text-transform: uppercase;
+    color: #005ea3;
+}
+
+.tour-info h4{
+    text-transform: capitalize;
+    margin: 0.2rem 0 0.6rem 0;
+}
+
+.tour-infoh5{
+    text-transform: capitalize;
+}
+
+.tour-info span{
+    color: #005ea3;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+    
+.tourList{
+    width: 70vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
